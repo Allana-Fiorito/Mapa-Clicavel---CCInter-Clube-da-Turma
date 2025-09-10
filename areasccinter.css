@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+}
+body{
+    text-align: center;
+    margin: 70px;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px ;
+}
+figure{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+img{
+    border-color: rgb(0, 221, 221);
+    border-radius: 20px;
+    border-style: ridge;
+    border-width: 7px;
+}
+button{
+    width: 85px;
+    height: 35px;
+    background-image:linear-gradient(cyan, teal);
+    margin: 30px;
+    color: rgb(255, 255, 255);
+    border-color: rgb(0, 221, 221);
+    border-radius: 7px;
+    border-style: ridge;
+    border-width: 4px;
+}
+button:hover{
+    width: 80px;
+    height: 30px;
+    /* height: 30px; */
+    background-image:linear-gradient(teal,cyan);
+}
